@@ -68,15 +68,30 @@ class ReflexAgent(Agent):
     newScaredTimes = [ghostState.scaredTimer for ghostState in newGhostStates]
 
     "*** YOUR CODE HERE ***"
-    ans = 0
-    #print newFood[newPos[0]][newPos[1]]
-    if newFood[newPos[0]][newPos[1]] == True:
-        ans = ans+1
-    # if currentFood[x][y] == True
-    # print "newScaredTimes:"
-    # print newScaredTimes
-    # print "stop printing"
-    #return successorGameState.getScore()
+    currentPos = currentGameState.getPacmanPosition()
+    from mypy import manhattanDist
+
+    # from searchAgents import foodHeuristic
+    ans = successorGameState.getScore()
+    # see how far the ghosts are. use manhattan distance
+    ghostPositions = successorGameState.getGhostPositions()
+    distance = 0
+    for each in ghostPositions:
+        distance = distance + manhattanDist(newPos, each)
+    ans = ans + distance*12
+    
+    #get to the closest food... to let it keep eating it
+    #
+    allFood = currentGameState.getCapsules()
+    foodDistance = util.PriorityQueue()
+    for dot in allFood:
+        distance = manhattanDist(newPos, dot)
+        foodDistance.push(dot, distance)
+    if not foodDistance.isEmpty():
+        closestFood = foodDistance.pop()
+        ans = ans - 10*manhattanDist(newPos, closestFood)
+    print "ans:"
+    print ans
     return ans
 def scoreEvaluationFunction(currentGameState):
   """
