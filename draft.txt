@@ -1,0 +1,5 @@
+A capable reflex agent will have to consider both food locations and ghost locations to perform well.
+The evaluation function you're writing is evaluating state–action pairs; in later parts of the project, you'll be evaluating states.
+As features, try the reciprocal of important values (such as distance to food) rather than just the values themselves.
+
+If the randomness is preventing you from telling whether your agent is improving, you can use -f to run with a fixed random seed (same random choices every game). You can also play multiple games in a row with -n. Turn off graphics with -q to run lots of games quickly.

@@ -1,0 +1,2793 @@
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%  %%.%%.%.%
+%......%G  G%......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%..> ....%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 9
+
+newPos:
+(8, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTFFTTTTFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037ac320>, <game.AgentState instance at 0x1037ac368>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%  %%.%%.%.%
+%......%G  G%......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%...<....%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: -1
+
+newPos:
+(9, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFTTTTFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037ac320>, <game.AgentState instance at 0x1037ac3f8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%  %%.%%.%.%
+%......%G  G%......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%... <...%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 9
+
+newPos:
+(10, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFTTTFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037ac320>, <game.AgentState instance at 0x1037ac368>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%  %%.%%.%.%
+%......% GG %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%...> ...%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 8
+
+newPos:
+(9, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFTTTFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037b5ef0>, <game.AgentState instance at 0x1037b5f38>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%  %%.%%.%.%
+%......% GG %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%... <...%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 8
+
+newPos:
+(10, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFTTTFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037b5ef0>, <game.AgentState instance at 0x1037b5ea8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%  %%.%%.%.%
+%......% GG %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%...  <..%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 18
+
+newPos:
+(11, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFFTTFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037b5ef0>, <game.AgentState instance at 0x1037b5f38>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%G %%.%%.%.%
+%......% G  %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%... > ..%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 17
+
+newPos:
+(10, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFFTTFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037bcb00>, <game.AgentState instance at 0x1037bcb48>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%G %%.%%.%.%
+%......% G  %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%...  <..%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 17
+
+newPos:
+(11, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFFTTFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037bcb00>, <game.AgentState instance at 0x1037bcab8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%G %%.%%.%.%
+%......% G  %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%...   <.%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 27
+
+newPos:
+(12, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFFFTFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037bcb00>, <game.AgentState instance at 0x1037bcb48>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%% G%%.%%.%.%
+%......%G   %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%...  > .%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 26
+
+newPos:
+(11, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFFFTFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037c5710>, <game.AgentState instance at 0x1037c5758>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%% G%%.%%.%.%
+%......%G   %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%...   <.%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 26
+
+newPos:
+(12, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFFFTFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037c5710>, <game.AgentState instance at 0x1037c56c8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%% G%%.%%.%.%
+%......%G   %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%...    <%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 36
+
+newPos:
+(13, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037c5710>, <game.AgentState instance at 0x1037c5758>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%  %%.%%.%.%
+%......% GG %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%...   > %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 35
+
+newPos:
+(12, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037cc320>, <game.AgentState instance at 0x1037cc368>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%  %%.%%.%.%
+%......% GG %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%.%.%%.%
+%....%...    <%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 35
+
+newPos:
+(13, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFTFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037cc320>, <game.AgentState instance at 0x1037cc2d8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%  %%.%%.%.%
+%......% GG %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%v%.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 45
+
+newPos:
+(13, 2)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037cc320>, <game.AgentState instance at 0x1037cc368>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%G %%.%%.%.%
+%......% G  %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%%v%.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 44
+
+newPos:
+(13, 2)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037d1ef0>, <game.AgentState instance at 0x1037d1f38>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%G %%.%%.%.%
+%......% G  %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..........v...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 54
+
+newPos:
+(13, 3)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037d1ef0>, <game.AgentState instance at 0x1037d1ea8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%G %%.%%.%.%
+%......% G  %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..............%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...    ^%...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 44
+
+newPos:
+(13, 1)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037d1fc8>, <game.AgentState instance at 0x1037d1f38>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%GG%%.%%.%.%
+%......%    %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%.........> ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 63
+
+newPos:
+(12, 3)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTFFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037d8b00>, <game.AgentState instance at 0x1037d8b48>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%GG%%.%%.%.%
+%......%    %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%..........v...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 53
+
+newPos:
+(13, 3)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037d8bd8>, <game.AgentState instance at 0x1037d8ab8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%GG%%.%%.%.%
+%......%    %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%.......... <..%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 63
+
+newPos:
+(14, 3)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTFFTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037d8b48>, <game.AgentState instance at 0x1037d8b00>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%GG%%.%%.%.%
+%......%    %......%
+%.%.%%.%%%%%%v%%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 63
+
+newPos:
+(13, 4)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037d8b48>, <game.AgentState instance at 0x1037d8bd8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%%GG%%.%%.%.%
+%......%    %......%
+%.%.%%.%%%%%%.%%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%%^%.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 53
+
+newPos:
+(13, 2)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFTFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037d8ab8>, <game.AgentState instance at 0x1037d8b00>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%......G.......%.%
+%.%.%%.%%  %%.%%.%.%
+%......%  G %......%
+%.%.%%.%%%%%%v%%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 62
+
+newPos:
+(13, 4)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037e0710>, <game.AgentState instance at 0x1037e0758>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%......G.......%.%
+%.%.%%.%%  %%.%%.%.%
+%......%  G %v.....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 72
+
+newPos:
+(13, 5)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037e0710>, <game.AgentState instance at 0x1037e06c8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%......G.......%.%
+%.%.%%.%%  %%.%%.%.%
+%......%  G %......%
+%.%.%%.%%%%%% %%.%.%
+%.%..........^...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 62
+
+newPos:
+(13, 3)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFTTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037e07e8>, <game.AgentState instance at 0x1037e0758>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.......G......%.%
+%.%.%%.%%  %%.%%.%.%
+%......%   G%v.....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 71
+
+newPos:
+(13, 5)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037e7320>, <game.AgentState instance at 0x1037e7368>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.......G......%.%
+%.%.%%.%%  %%.%%.%.%
+%......%   G% <....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 81
+
+newPos:
+(14, 5)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFFFTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037e7320>, <game.AgentState instance at 0x1037e72d8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.......G......%.%
+%.%.%%.%%  %%v%%.%.%
+%......%   G% .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 81
+
+newPos:
+(13, 6)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037e7320>, <game.AgentState instance at 0x1037e73f8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.......G......%.%
+%.%.%%.%%  %%.%%.%.%
+%......%   G% .....%
+%.%.%%.%%%%%%^%%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 71
+
+newPos:
+(13, 4)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFTFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037e7320>, <game.AgentState instance at 0x1037e73b0>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%% G%%v%%.%.%
+%......%  G % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 80
+
+newPos:
+(13, 6)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037ecef0>, <game.AgentState instance at 0x1037ecf38>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..........v...%.%
+%.%.%%.%% G%% %%.%.%
+%......%  G % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 90
+
+newPos:
+(13, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037ecef0>, <game.AgentState instance at 0x1037ecea8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..............%.%
+%.%.%%.%% G%% %%.%.%
+%......%  G %^.....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 80
+
+newPos:
+(13, 5)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTTTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037ecfc8>, <game.AgentState instance at 0x1037ecf38>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.........> ...%.%
+%.%.%%.%%G %% %%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 99
+
+newPos:
+(12, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037f4b00>, <game.AgentState instance at 0x1037f4b48>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..........v...%.%
+%.%.%%.%%G %% %%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 89
+
+newPos:
+(13, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037f4bd8>, <game.AgentState instance at 0x1037f4ab8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.......... <..%.%
+%.%.%%.%%G %% %%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 99
+
+newPos:
+(14, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTFFTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037f4b48>, <game.AgentState instance at 0x1037f4b00>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%v%.%%.%
+%.%.......... ...%.%
+%.%.%%.%%G %% %%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 99
+
+newPos:
+(13, 8)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFFFTFFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037f4b48>, <game.AgentState instance at 0x1037f4bd8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.......... ...%.%
+%.%.%%.%%G %%^%%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 89
+
+newPos:
+(13, 6)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037f4ab8>, <game.AgentState instance at 0x1037f4b00>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%........>  ...%.%
+%.%.%%.%%G %% %%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 108
+
+newPos:
+(11, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037fc710>, <game.AgentState instance at 0x1037fc758>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.........> ...%.%
+%.%.%%.%%G %% %%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 98
+
+newPos:
+(12, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037fc7e8>, <game.AgentState instance at 0x1037fc6c8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%......... <...%.%
+%.%.%%.%%G %% %%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 98
+
+newPos:
+(13, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTTFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1037fc758>, <game.AgentState instance at 0x1037fc710>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%......G>   ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%G   % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 117
+
+newPos:
+(10, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103803320>, <game.AgentState instance at 0x103803368>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%......G.>  ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%G   % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 107
+
+newPos:
+(11, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103803320>, <game.AgentState instance at 0x1038033f8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%......G. < ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%G   % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 107
+
+newPos:
+(12, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTTFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103803320>, <game.AgentState instance at 0x103803368>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.....G>    ...%.%
+%.%.%%.%%  %% %%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 126
+
+newPos:
+(9, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103808ef0>, <game.AgentState instance at 0x103808f38>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.....G.>   ...%.%
+%.%.%%.%%  %% %%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 116
+
+newPos:
+(10, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103808fc8>, <game.AgentState instance at 0x103808ea8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.....G. <  ...%.%
+%.%.%%.%%  %% %%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 116
+
+newPos:
+(11, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103808f38>, <game.AgentState instance at 0x103808ef0>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.....G.    ...%.%
+%.%.%%.%% ^%% %%.%.%
+%......% G  % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 116
+
+newPos:
+(10, 6)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTTFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103808ea8>, <game.AgentState instance at 0x103808fc8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%....G>     ...%.%
+%.%.%%.%%G %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 135
+
+newPos:
+(8, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10380fb00>, <game.AgentState instance at 0x10380fb48>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%....G.>    ...%.%
+%.%.%%.%%G %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 125
+
+newPos:
+(9, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10380fbd8>, <game.AgentState instance at 0x10380fab8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%....G. <   ...%.%
+%.%.%%.%%G %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 125
+
+newPos:
+(10, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10380fb48>, <game.AgentState instance at 0x10380fb00>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%....G.     ...%.%
+%.%.%%.%%G %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: -375
+
+newPos:
+(9, 6)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTTFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10380fab8>, <game.AgentState instance at 0x10380fbd8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%...G> G    ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 144
+
+newPos:
+(7, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103817710>, <game.AgentState instance at 0x103817758>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%...G.>G    ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 134
+
+newPos:
+(8, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1038177e8>, <game.AgentState instance at 0x1038176c8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%...G. G    ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: -366
+
+newPos:
+(9, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTTFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103817758>, <game.AgentState instance at 0x103817710>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%...> G     ...%.%
+%.%.%%G%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 153
+
+newPos:
+(6, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10381e320>, <game.AgentState instance at 0x10381e368>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%....>G     ...%.%
+%.%.%%G%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 143
+
+newPos:
+(7, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10381e320>, <game.AgentState instance at 0x10381e3f8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.... G     ...%.%
+%.%.%%G%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: -357
+
+newPos:
+(8, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTTFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10381e320>, <game.AgentState instance at 0x10381e368>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..> G      ...%.%
+%.%.%%.%%  %% %%.%.%
+%.....G%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 162
+
+newPos:
+(5, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103824ef0>, <game.AgentState instance at 0x103824f38>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%...>G      ...%.%
+%.%.%%.%%  %% %%.%.%
+%.....G%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 152
+
+newPos:
+(6, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103824fc8>, <game.AgentState instance at 0x103824ea8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%... G      ...%.%
+%.%.%%.%%  %% %%.%.%
+%.....G%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: -348
+
+newPos:
+(7, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103824f38>, <game.AgentState instance at 0x103824ef0>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%v%%%%%%.%.%%.%
+%.%... G      ...%.%
+%.%.%%.%%  %% %%.%.%
+%.....G%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 162
+
+newPos:
+(6, 8)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFFFFFFFFTFTFFTF
+FTFTTTFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103824ea8>, <game.AgentState instance at 0x103824fc8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%... G      ...%.%
+%.%.%%^%%  %% %%.%.%
+%.....G%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 162
+
+newPos:
+(6, 6)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTTFFFFFFFFTTTFTF
+FTFTFFFFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103824ea8>, <game.AgentState instance at 0x103824f38>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.> G       ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%G%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 171
+
+newPos:
+(4, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10382bb00>, <game.AgentState instance at 0x10382bb48>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%..>G       ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%G%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 161
+
+newPos:
+(5, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10382bbd8>, <game.AgentState instance at 0x10382bab8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.. G       ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%G%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: -339
+
+newPos:
+(6, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTTFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10382bb48>, <game.AgentState instance at 0x10382bb00>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%> G        ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%...G...... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 180
+
+newPos:
+(3, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFFFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103833710>, <game.AgentState instance at 0x103833758>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%.>G        ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%...G...... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 170
+
+newPos:
+(4, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1038337e8>, <game.AgentState instance at 0x1038336c8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%.%.%%%%%%.%.%%.%
+%.%. G        ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%...G...... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: -330
+
+newPos:
+(5, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFTFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103833758>, <game.AgentState instance at 0x103833710>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%v%.%%%%%%.%.%%.%
+%.%. G        ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%...G...... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 180
+
+newPos:
+(4, 8)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x1038336c8>, <game.AgentState instance at 0x1038337e8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%%v%.%%%%%%.%.%%.%
+%.%.G         ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%..G....... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 179
+
+newPos:
+(4, 8)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10383a320>, <game.AgentState instance at 0x10383a368>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o..v%........%....%
+%.%% %.%%%%%%.%.%%.%
+%.%.G         ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%..G....... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 189
+
+newPos:
+(4, 9)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTFFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10383a320>, <game.AgentState instance at 0x10383a2d8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o...%........%....%
+%.%% %.%%%%%%.%.%%.%
+%.%.G         ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%..G....... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: -321
+
+newPos:
+(4, 7)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTTFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10383a320>, <game.AgentState instance at 0x10383a3f8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o.> %........%....%
+%.%%G%.%%%%%%.%.%%.%
+%.%.          ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.G........ ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 198
+
+newPos:
+(3, 9)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTFFFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10383fef0>, <game.AgentState instance at 0x10383ff38>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o..v%........%....%
+%.%%G%.%%%%%%.%.%%.%
+%.%.          ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.G........ ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 188
+
+newPos:
+(4, 9)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTFFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10383ffc8>, <game.AgentState instance at 0x10383fea8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o.. %........%....%
+%.%%G%.%%%%%%.%.%%.%
+%.%.          ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%.G........ ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: -312
+
+newPos:
+(4, 8)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTTFFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10383ff38>, <game.AgentState instance at 0x10383fef0>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o> G%........%....%
+%.%% %.%%%%%%.%.%%.%
+%.%.          ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%G......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 207
+
+newPos:
+(2, 9)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFFFFFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103846b00>, <game.AgentState instance at 0x103846b48>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o.>G%........%....%
+%.%% %.%%%%%%.%.%%.%
+%.%.          ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%G......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 197
+
+newPos:
+(3, 9)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTFFFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103846bd8>, <game.AgentState instance at 0x103846ab8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o. G%........%....%
+%.%% %.%%%%%%.%.%%.%
+%.%.          ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%.%%.%%%%%% %%.%.%
+%.%G......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: -303
+
+newPos:
+(4, 9)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFTFFFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x103846b48>, <game.AgentState instance at 0x103846b00>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%> G %........%....%
+%.%% %.%%%%%%.%.%%.%
+%.%.          ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%G%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 206
+
+newPos:
+(1, 9)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFFFFFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10384e710>, <game.AgentState instance at 0x10384e758>]
+newScaredTimes:
+[40, 40]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o>G %........%....%
+%.%% %.%%%%%%.%.%%.%
+%.%.          ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%G%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: 206
+
+newPos:
+(2, 9)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFFFFFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10384e710>, <game.AgentState instance at 0x10384e6c8>]
+newScaredTimes:
+[0, 0]
+stop printing
+start printing:
+successorGameState:
+%%%%%%%%%%%%%%%%%%%%
+%o G %........%....%
+%.%% %.%%%%%%.%.%%.%
+%.%.          ...%.%
+%.%.%%.%%  %% %%.%.%
+%......%    % .....%
+%.%G%%.%%%%%% %%.%.%
+%.%.......... ...%.%
+%.%%.%.%%%%%% %.%%.%
+%....%...     %...o%
+%%%%%%%%%%%%%%%%%%%%
+Score: -294
+
+newPos:
+(3, 9)
+newFood:
+FFFFFFFFFFFFFFFFFFFF
+FFFFFFTTTTTTTTFTTTTF
+FTFFFFTFFFFFFTFTFFTF
+FTFTFFFFFFFFFFTTTFTF
+FTFTFFTFFFFFFFFFTFTF
+FTTTTTTFFFFFFFTTTTTF
+FTFTFFTFFFFFFFFFTFTF
+FTFTTTTTTTTTTFTTTFTF
+FTFFTFTFFFFFFFFTFFTF
+FTTTTFTTTFFFFFFTTTFF
+FFFFFFFFFFFFFFFFFFFF
+newGhostStates:
+[<game.AgentState instance at 0x10384e710>, <game.AgentState instance at 0x10384e758>]
+newScaredTimes:
+[0, 0]
+stop printing
+Pacman died! Score: -294
+Average Score: -294.0
+Scores:        -294
+Win Rate:      0/1 (0.00)
+Record:        Loss
