@@ -75,13 +75,15 @@ class ReflexAgent(Agent):
     ans = successorGameState.getScore()
     # see how far the ghosts are. use manhattan distance
     ghostPositions = successorGameState.getGhostPositions()
-    distance = 0
     for each in ghostPositions:
+        distance = 0
         distance = distance + manhattanDist(newPos, each)
-    ans = ans + distance*12
+        ans = ans + distance*1.2
     
     #get to the closest food... to let it keep eating it
-    #
+    # no... get an average of the closest food and the farthest food
+    # so you need a list with min and max
+    # then adjust the coefficients
     allFood = currentGameState.getCapsules()
     foodDistance = util.PriorityQueue()
     for dot in allFood:
@@ -89,7 +91,7 @@ class ReflexAgent(Agent):
         foodDistance.push(dot, distance)
     if not foodDistance.isEmpty():
         closestFood = foodDistance.pop()
-        ans = ans - 10*manhattanDist(newPos, closestFood)
+        ans = ans - manhattanDist(newPos, closestFood)
     print "ans:"
     print ans
     return ans
