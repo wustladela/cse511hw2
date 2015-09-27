@@ -81,7 +81,7 @@ class ReflexAgent(Agent):
         distance = 0
         distance = distance + manhattanDist(newPos, each)
         if distance < 4:
-            ans = ans - distance*10
+            ans = ans - 100
         
     allFood = currentGameState.getCapsules()
     # foodDistance = util.PriorityQueue()
@@ -92,8 +92,7 @@ class ReflexAgent(Agent):
     if len(allFood)>0:
         for each in allFood:
             avgDist = (avgDist + mazeDistance(newPos, each, successorGameState))/len(allFood)
-            closest = 
-        closestFood = min(allFood)
+        # closestFood = min(allFood)
         # farthestFood = max(allFood)
         # print closestFood
         # average = ()
@@ -103,7 +102,9 @@ class ReflexAgent(Agent):
         # print "new Pos:"
         # print newPos
         # ans = ans - manhattanDist(newPos, average)
-    ans = ans - closestFood
+    ans = ans - avgDist
+    # print "ans:"
+    # print ans
     return ans
 def scoreEvaluationFunction(currentGameState):
   """
