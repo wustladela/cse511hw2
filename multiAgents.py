@@ -9,7 +9,7 @@
 from util import manhattanDistance
 from game import Directions
 import random, util
-
+from mypy import *
 from game import Agent
 
 class ReflexAgent(Agent):
@@ -71,7 +71,6 @@ class ReflexAgent(Agent):
     "TODO: make sure it's not too close to the ghost"
     "make sure it keeps eating all the food... and do not stop if the food is close"
     currentPos = currentGameState.getPacmanPosition()
-    from mypy import manhattanDist
     from searchAgents import mazeDistance
     # from searchAgents import foodHeuristic
     ans = successorGameState.getScore()
@@ -140,8 +139,6 @@ class MinimaxAgent(MultiAgentSearchAgent):
   """
     Your minimax agent (question 2)
   """
-  # def maxValue(gameState):
-
 
   def getAction(self, gameState):
     """
@@ -164,6 +161,25 @@ class MinimaxAgent(MultiAgentSearchAgent):
         Returns the total number of agents in the game
     """
     "*** YOUR CODE HERE ***"
+    agentIndex = 0
+    print "self.depth:"
+    print self.depth
+    # maxValue(gameState, agentIndex)
+    # legalActions = gameState.getLegalActions(agentIndex)
+    # print "legalActions:"
+    # print legalActions
+    # successorStates = gameState.generateSuccessor(agentIndex, legalActions[0])
+    # print "currentstate:"
+    # print gameState
+    # print "successorStates:"
+    # print successorStates
+    # agentIndex = agentIndex + 1
+    # if agentIndex>gameState.getNumAgents():
+    #   agentIndex = 0
+    # print "evaluationFunction:"
+    # print self.evaluationFunction(gameState)
+    # print "what is self?"
+    # print self
     util.raiseNotDefined()
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
