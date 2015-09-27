@@ -78,10 +78,10 @@ class ReflexAgent(Agent):
     # see how far the ghosts are. use manhattan distance
     ghostPositions = successorGameState.getGhostPositions()
     for each in ghostPositions:
-        distance = 0
-        distance = distance + manhattanDist(newPos, each)
-        if distance < 4:
-            ans = ans - 100
+      distance = 0
+      distance = distance + manhattanDist(newPos, each)
+      if distance < 4:
+        ans = ans - 100
         
     allFood = currentGameState.getCapsules()
     # foodDistance = util.PriorityQueue()
@@ -90,8 +90,8 @@ class ReflexAgent(Agent):
     #     foodDistance.push(dot, distance)
     avgDist = 0
     if len(allFood)>0:
-        for each in allFood:
-            avgDist = (avgDist + mazeDistance(newPos, each, successorGameState))/len(allFood)
+      for each in allFood:
+        avgDist = (avgDist + mazeDistance(newPos, each, successorGameState))/len(allFood)
         # closestFood = min(allFood)
         # farthestFood = max(allFood)
         # print closestFood
@@ -140,6 +140,8 @@ class MinimaxAgent(MultiAgentSearchAgent):
   """
     Your minimax agent (question 2)
   """
+  # def maxValue(gameState):
+
 
   def getAction(self, gameState):
     """
