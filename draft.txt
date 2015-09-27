@@ -1,9 +1,3 @@
-distance to food: the closer the better
+Your minimax agent should work with any number of ghosts, so you'll have to write an algorithm that is slightly more general than what appears in the textbook. In particular, your minimax tree will have multiple min layers (one for each ghost) for every max layer.
 
-calculate the distance to food: distance to all food. or distance to the closest food you can find.
 
-distance to food... getCapsules() and find the closest manhattan dist one
-
-get all capsules, and keep calculating the one that is closest - maintain PQ? but PQ is updated every time.
-
-then calculate manhattan distance between pacman and the closest food.

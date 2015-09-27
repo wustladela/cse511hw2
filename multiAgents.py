@@ -79,25 +79,31 @@ class ReflexAgent(Agent):
     ghostPositions = successorGameState.getGhostPositions()
     for each in ghostPositions:
         distance = 0
-        distance = distance + mazeDistance(newPos, each, successorGameState)
+        distance = distance + manhattanDist(newPos, each)
         if distance < 4:
-            ans = ans + distance*2
+            ans = ans - distance*10
         
-    
-    #get to the closest food... to let it keep eating it
-    # no... get an average of the closest food and the farthest food
-    # so you need a list with min and max
-    # then adjust the coefficients
     allFood = currentGameState.getCapsules()
-    foodDistance = util.PriorityQueue()
-    for dot in allFood:
-        distance = mazeDistance(newPos, dot, successorGameState)
-        foodDistance.push(dot, distance)
-    if not foodDistance.isEmpty():
-        closestFood = foodDistance.pop()
-        ans = ans - mazeDistance(newPos, closestFood, successorGameState)
-    print "ans:"
-    print ans
+    # foodDistance = util.PriorityQueue()
+    # for dot in allFood:
+    #     distance = manhattanDist(newPos, dot)
+    #     foodDistance.push(dot, distance)
+    avgDist = 0
+    if len(allFood)>0:
+        for each in allFood:
+            avgDist = (avgDist + mazeDistance(newPos, each, successorGameState))/len(allFood)
+            closest = 
+        closestFood = min(allFood)
+        # farthestFood = max(allFood)
+        # print closestFood
+        # average = ()
+        # average = ((closestFood[0]*4+farthestFood[0])/2,(closestFood[1]*4+farthestFood[1])/2)
+        # print "closestFood:"
+        # print closestFood
+        # print "new Pos:"
+        # print newPos
+        # ans = ans - manhattanDist(newPos, average)
+    ans = ans - closestFood
     return ans
 def scoreEvaluationFunction(currentGameState):
   """
