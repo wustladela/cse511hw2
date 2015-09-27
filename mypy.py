@@ -7,7 +7,7 @@ def manhattanDist(point1, point2):
   y1 = point1[1]
   y2 = point2[0]
   return abs(x1 - x2) + abs(y1 - y2)
-def nextAgent(agentIndex):
+def nextAgent(gameState, agentIndex):
   numAgents = gameState.getNumAgents()
   if agentIndex + 1 == numAgents:
   	agentIndex = 0
@@ -24,12 +24,11 @@ def maxValue(gameState, agentIndex):
   	v = max(v, value(succState, agentIndex))
   return v
 
-def maxValue(gameState, agentIndex):
+def minValue(gameState, agentIndex):
   v = 93372036854775807
   legalActions = gameState.getLegalActions(agentIndex)
   for action in legalActions:
   	succState = gameState.generateSuccessor(agentIndex, action)
-  	
   	v = min(v, value(succState, agentIndex))
   return v
 
@@ -37,7 +36,7 @@ def value(gameState, agentIndex):
   if gameState.isWin() or gameState.isLose():
   	return MinimaxAgent.evaluationFunction(gameState)
   legalActions = gameState.getLegalActions(agentIndex)
-  agentIndex = nextAgent(agentIndex)
+  agentIndex = nextAgent(gameState, agentIndex)
   if agentIndex == 0:
     return maxValue(gameState, agentIndex)
   else:

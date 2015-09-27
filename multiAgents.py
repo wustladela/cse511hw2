@@ -162,24 +162,9 @@ class MinimaxAgent(MultiAgentSearchAgent):
     """
     "*** YOUR CODE HERE ***"
     agentIndex = 0
-    print "self.depth:"
-    print self.depth
-    # maxValue(gameState, agentIndex)
-    # legalActions = gameState.getLegalActions(agentIndex)
-    # print "legalActions:"
-    # print legalActions
-    # successorStates = gameState.generateSuccessor(agentIndex, legalActions[0])
-    # print "currentstate:"
-    # print gameState
-    # print "successorStates:"
-    # print successorStates
-    # agentIndex = agentIndex + 1
-    # if agentIndex>gameState.getNumAgents():
-    #   agentIndex = 0
-    # print "evaluationFunction:"
-    # print self.evaluationFunction(gameState)
-    # print "what is self?"
-    # print self
+    print "gameState:"
+    print gameState
+    value(gameState, agentIndex)
     util.raiseNotDefined()
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
