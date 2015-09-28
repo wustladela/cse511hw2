@@ -101,6 +101,11 @@ class ReflexAgent(Agent):
         # print "new Pos:"
         # print newPos
         # ans = ans - manhattanDist(newPos, average)
+
+
+
+        #######give it enough incentive to eat the food - if it actually eats it then there is less food
+        #######make sure it eats all the food first then handle the ghost - add a negative infinity to it or somrthing
     ans = ans - avgDist
     # print "ans:"
     # print ans
@@ -139,7 +144,58 @@ class MinimaxAgent(MultiAgentSearchAgent):
   """
     Your minimax agent (question 2)
   """
+  def manhattanDist(point1, point2):
+    "The Manhattan distance for two positions"
+    x1 = point1[0]
+    x2 = point2[0]
+    y1 = point1[1]
+    y2 = point2[0]
+    return abs(x1 - x2) + abs(y1 - y2)
+  def nextAgent(self, gameState, agentIndex, depth):
+    numAgents = gameState.getNumAgents()
+    if agentIndex + 1 == numAgents:
+      agentIndex = 0
+      depth = self.nextDepth(depth)
+    else:
+      agentIndex = agentIndex + 1
+    return agentIndex, depth
 
+  def nextDepth(self, depth):
+    if depth < self.depth:
+      depth = depth+1
+    return depth
+  def maxValue(self, gameState, agentIndex, depth):
+    v = -93372036854775807
+    legalActions = gameState.getLegalActions(agentIndex)
+    for action in legalActions:
+      succState = gameState.generateSuccessor(agentIndex, action)
+      #agentIndex = nextAgent(agentIndex)
+      v = max(v, self.value(succState, agentIndex, depth))
+      print "v in maxValue:"
+      print v
+    return v
+
+  def minValue(self, gameState, agentIndex, depth):
+    v = 93372036854775807
+    legalActions = gameState.getLegalActions(agentIndex)
+    for action in legalActions:
+      succState = gameState.generateSuccessor(agentIndex, action)
+      v = min(v, self.value(succState, agentIndex, depth))
+      print "v in minValue:"
+      print v
+    return v
+
+  def value(self, gameState, agentIndex, depth):
+    # if gameState.isWin() or gameState.isLose():
+    if depth == self.depth:
+      return self.evaluationFunction(gameState)
+    legalActions = gameState.getLegalActions(agentIndex)
+    #TODO
+    agentIndex, depth = self.nextAgent(gameState, agentIndex, depth)
+    if agentIndex == 0:
+      return self.maxValue(gameState, agentIndex, depth)
+    else:
+      return self.minValue(gameState, agentIndex, depth)
   def getAction(self, gameState):
     """
       Returns the minimax action from the current gameState using self.depth
@@ -162,9 +218,16 @@ class MinimaxAgent(MultiAgentSearchAgent):
     """
     "*** YOUR CODE HERE ***"
     agentIndex = 0
-    print "gameState:"
-    print gameState
-    value(gameState, agentIndex)
+    result = 0
+    
+    depth = 0
+    # allActions = gameState.getLegalActions(agentIndex)
+    # for action in allActions:
+    #   successorGameState = gameState.generateSuccessor(agentIndex, action)
+    #   result = self.value(successorGameState, agentIndex, 0)#start with depth 0
+    result = self.value(gameState, agentIndex, depth)
+    print "result:"
+    print result
     util.raiseNotDefined()
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
