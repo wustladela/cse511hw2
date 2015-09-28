@@ -223,16 +223,22 @@ class MinimaxAgent(MultiAgentSearchAgent):
     """
     "*** YOUR CODE HERE ***"
     agentIndex = 0
-    result = 0
+    result = []
     
     depth = 0
     # allActions = gameState.getLegalActions(agentIndex)
     # for action in allActions:
     #   successorGameState = gameState.generateSuccessor(agentIndex, action)
     #   result = self.value(successorGameState, agentIndex, 0)#start with depth 0
-    result = self.value(gameState, agentIndex, depth)
-    print "result:"
-    print result
+    
+    allActions = gameState.getLegalActions(agentIndex)
+    for action in allActions:
+      successorState = gameState.generateSuccessor(agentIndex, action)
+      eachResult = (self.value(successorState, agentIndex, depth), action)
+      result.append(eachResult)
+    
+    ans = max(result, key = lambda x: x[0])
+    return ans[1]
     util.raiseNotDefined()
 
 class AlphaBetaAgent(MultiAgentSearchAgent):
