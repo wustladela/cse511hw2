@@ -324,7 +324,52 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
   """
     Your expectimax agent (question 4)
   """
+  def nextAgent(self, gameState, agentIndex, depth):
+    numAgents = gameState.getNumAgents()
+    if agentIndex + 1 == numAgents:
+      agentIndex = 0
+      depth = self.nextDepth(depth)
+    else:
+      agentIndex = agentIndex + 1
+    return agentIndex, depth
 
+  def nextDepth(self, depth):
+    if depth < self.depth:
+      depth = depth+1
+    return depth
+  def maxValue(self, gameState, agentIndex, depth):
+    v = -93372036854775807
+    legalActions = gameState.getLegalActions(agentIndex)
+    if len(legalActions)==0:
+      return self.evaluationFunction(gameState)
+    for action in legalActions:
+      succState = gameState.generateSuccessor(agentIndex, action)
+      v = max(v, self.value(succState, agentIndex, depth))
+    return v
+
+  def expValue(self, gameState, agentIndex, depth):
+    v = 0
+    legalActions = gameState.getLegalActions(agentIndex)
+    if len(legalActions)==0:
+      return self.evaluationFunction(gameState)
+    for action in legalActions:
+      succState = gameState.generateSuccessor(agentIndex, action)
+      v = v + self.value(succState, agentIndex, depth)
+    v = v/len(action)
+    return v
+
+  def value(self, gameState, agentIndex, depth):
+    # if gameState.isWin() or gameState.isLose():
+    if depth == self.depth:
+      return self.evaluationFunction(gameState)
+    legalActions = gameState.getLegalActions(agentIndex)
+    if len(legalActions)==0:
+      return self.evaluationFunction(gameState)
+    agentIndex, depth = self.nextAgent(gameState, agentIndex, depth)
+    if agentIndex == 0:
+      return self.maxValue(gameState, agentIndex, depth)
+    else:
+      return self.expValue(gameState, agentIndex, depth)
   def getAction(self, gameState):
     """
       Returns the expectimax action using self.depth and self.evaluationFunction
@@ -333,6 +378,19 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
       legal moves.
     """
     "*** YOUR CODE HERE ***"
+    agentIndex = 0
+    result = []
+    depth = 0
+    allActions = gameState.getLegalActions(agentIndex)
+    if 'Stop' in allActions:
+      allActions.remove('Stop')
+    #we need to add actions here, so do the first iteration here.
+    for action in allActions:
+      successorState = gameState.generateSuccessor(agentIndex, action)
+      eachResult = (self.value(successorState, agentIndex, depth), action)
+      result.append(eachResult)
+    ans = max(result, key = lambda x: x[0])
+    return ans[1]
     util.raiseNotDefined()
 
 def betterEvaluationFunction(currentGameState):
