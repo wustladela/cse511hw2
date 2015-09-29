@@ -1,9 +1,12 @@
 translate alpha beta pruning:
+alpha: the best choice so far. if v becomes worse then pacman can avoid it
+beta: the best choice for MIN so far. if v becomes... then ghosts can avoid it.
 
 max value: for pacman
+v = ...
 for each successor:
-	v = the bigger between v and value(successor, a, b)
-	if v >= b then return v
+	v = the bigger between v and value(successor, a, b) // the biggest of kids
+	if v >= b then return v //if b greater than 
 	a = the bigger between a and v
 
 

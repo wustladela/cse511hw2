@@ -325,6 +325,12 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
   """
     Your expectimax agent (question 4)
   """
+  #import ghostAgents does not seem to work so I copied the code here
+  def getRandomGhostDistribution( self, state ):
+        dist = util.Counter()
+        for a in state.getLegalActions( self.index ): dist[a] = 1.0
+        dist.normalize()
+        return dist
   def nextAgent(self, gameState, agentIndex, depth):
     numAgents = gameState.getNumAgents()
     if agentIndex + 1 == numAgents:
@@ -357,7 +363,7 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
     for action in legalActions:
       succState = gameState.generateSuccessor(agentIndex, action)
       v = v + self.value(succState, agentIndex, depth)
-      distribution = RandomGhost.getDistribution(succState)
+      distribution = self.getRandomGhostDistribution(succState)
     return v
 
   def value(self, gameState, agentIndex, depth):
