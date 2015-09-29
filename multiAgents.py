@@ -6,8 +6,9 @@
 # John DeNero (denero@cs.berkeley.edu) and Dan Klein (klein@cs.berkeley.edu).
 # For more info, see http://inst.eecs.berkeley.edu/~cs188/sp09/pacman.html
 
-from util import manhattanDistance
+import util
 from game import Directions
+import ghostAgents
 import random, util
 from mypy import *
 from game import Agent
@@ -348,6 +349,7 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
     return v
 
   def expValue(self, gameState, agentIndex, depth):
+    
     v = 0
     legalActions = gameState.getLegalActions(agentIndex)
     if len(legalActions)==0:
@@ -355,7 +357,7 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
     for action in legalActions:
       succState = gameState.generateSuccessor(agentIndex, action)
       v = v + self.value(succState, agentIndex, depth)
-    v = v/len(action)
+      distribution = RandomGhost.getDistribution(succState)
     return v
 
   def value(self, gameState, agentIndex, depth):
