@@ -224,6 +224,7 @@ class MinimaxAgent(MultiAgentSearchAgent):
     allActions = gameState.getLegalActions(agentIndex)
     if 'Stop' in allActions:
       allActions.remove('Stop')
+    #we need to add actions here, so do the first iteration here.
     for action in allActions:
       successorState = gameState.generateSuccessor(agentIndex, action)
       eachResult = (self.value(successorState, agentIndex, depth), action)
@@ -236,12 +237,87 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
   """
     Your minimax agent with alpha-beta pruning (question 3)
   """
+  def nextAgent(self, gameState, agentIndex, depth):
+    numAgents = gameState.getNumAgents()
+    if agentIndex + 1 == numAgents:
+      agentIndex = 0
+      depth = self.nextDepth(depth)
+    else:
+      agentIndex = agentIndex + 1
+    return agentIndex, depth
 
+  def nextDepth(self, depth):
+    if depth < self.depth:
+      depth = depth+1
+    return depth
+  def maxValue(self, gameState, alpha, beta, agentIndex, depth):
+    v = -93372036854775807
+    legalActions = gameState.getLegalActions(agentIndex)
+    if len(legalActions)==0:
+      return self.evaluationFunction(gameState)
+    for action in legalActions:
+      succState = gameState.generateSuccessor(agentIndex, action)
+      v = max(v, self.value(succState, alpha, beta, agentIndex, depth))
+      if v>= beta:
+        return v
+      alpha = max(alpha, v)
+    return v
+
+  def minValue(self, gameState, alpha, beta, agentIndex, depth):
+    v = 93372036854775807
+    legalActions = gameState.getLegalActions(agentIndex)
+    #terminal state
+    if len(legalActions)==0:
+      return self.evaluationFunction(gameState)
+    
+    for action in legalActions:
+      succState = gameState.generateSuccessor(agentIndex, action)
+      v = min(v, self.value(succState, alpha, beta, agentIndex, depth))
+      if v <= alpha:
+        return v
+      beta = min(beta, v)
+    return v
+
+  def value(self, gameState, alpha, beta, agentIndex, depth):
+    if depth == self.depth:
+      return self.evaluationFunction(gameState)
+    legalActions = gameState.getLegalActions(agentIndex)
+    if len(legalActions)==0:
+      return self.evaluationFunction(gameState)
+    agentIndex, depth = self.nextAgent(gameState, agentIndex, depth)
+    if agentIndex == 0:
+      return self.maxValue(gameState, alpha, beta, agentIndex, depth)
+    else:
+      return self.minValue(gameState, alpha, beta, agentIndex, depth)
   def getAction(self, gameState):
     """
       Returns the minimax action using self.depth and self.evaluationFunction
     """
     "*** YOUR CODE HERE ***"
+    agentIndex = 0
+    result = []
+    depth = 0
+    allActions = gameState.getLegalActions(agentIndex)
+    #define alpha and beta first
+    alpha = gameState #MAX best option on path to root
+    beta = gameState #MIN best option: need to calculate here, since we only need the first one (the first ghost), we only get the first best beta
+    findBeta = []
+    if 'Stop' in allActions:
+      allActions.remove('Stop')
+    for action in allActions:
+      successorState = gameState.generateSuccessor(agentIndex, action)
+      evalResult = self.evaluationFunction(successorState)
+      item = (evalResult, successorState)
+      findBeta.append(item)
+    beta = min(findBeta, key = lambda x: x[0])
+    #now call the minimax algorithm
+
+    for action in allActions:
+      successorState = gameState.generateSuccessor(agentIndex, action)
+      eachResult = (self.value(successorState, alpha, beta, agentIndex, depth), action)
+      result.append(eachResult)
+    ans = max(result, key = lambda x: x[0])
+    return ans[1]
     util.raiseNotDefined()
 
 class ExpectimaxAgent(MultiAgentSearchAgent):

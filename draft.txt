@@ -1,16 +1,20 @@
-Your minimax agent should work with any number of ghosts, so you'll have to write an algorithm that is slightly more general than what appears in the textbook. In particular, 
+translate alpha beta pruning:
 
-your minimax tree will have multiple min layers (one for each ghost) for every max layer.
+max value: for pacman
+for each successor:
+	v = the bigger between v and value(successor, a, b)
+	if v >= b then return v
+	a = the bigger between a and v
 
 
-Your code should also expand the game tree to an arbitrary depth. 
+min value: for MIN nodes
+for each successor:
+	v = the smaller between v and value(successor, a, b)
+	if v<=a then return v
+	b = the smaller between b and v
 
-Score the leaves of your minimax tree with the supplied self.evaluationFunction, which defaults to scoreEvaluationFunction. 
 
-MinimaxAgent extends MultiAgentAgent, which gives access to self.depth and self.evaluationFunction. Make sure your minimax code makes reference to these two variables where appropriate as these variables are populated in response to command line options.
-
-A single search ply is considered to be one Pacman move and all the ghosts' responses, so depth 2 search will involve Pacman and each ghost moving two times.
-
-We will be checking your code to determine whether it explores the correct number of game states. 
-As a result, the autograder will be very picky about how many times you call GameState.getLegalActions. 
-Note, however, that the autograder will accept solutions both with and without the Directions.STOP action available.
+value:
+	if pacman: max-value
+	if ghosts: min-value
+	end of depth: use evaluation function.
