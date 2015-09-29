@@ -173,8 +173,6 @@ class MinimaxAgent(MultiAgentSearchAgent):
       succState = gameState.generateSuccessor(agentIndex, action)
       #agentIndex = nextAgent(agentIndex)
       v = max(v, self.value(succState, agentIndex, depth))
-      print "v in maxValue:"
-      print v
     return v
 
   def minValue(self, gameState, agentIndex, depth):
@@ -185,8 +183,6 @@ class MinimaxAgent(MultiAgentSearchAgent):
     for action in legalActions:
       succState = gameState.generateSuccessor(agentIndex, action)
       v = min(v, self.value(succState, agentIndex, depth))
-      print "v in minValue:"
-      print v
     return v
 
   def value(self, gameState, agentIndex, depth):
@@ -224,19 +220,14 @@ class MinimaxAgent(MultiAgentSearchAgent):
     "*** YOUR CODE HERE ***"
     agentIndex = 0
     result = []
-    
     depth = 0
-    # allActions = gameState.getLegalActions(agentIndex)
-    # for action in allActions:
-    #   successorGameState = gameState.generateSuccessor(agentIndex, action)
-    #   result = self.value(successorGameState, agentIndex, 0)#start with depth 0
-    
     allActions = gameState.getLegalActions(agentIndex)
+    if 'Stop' in allActions:
+      allActions.remove('Stop')
     for action in allActions:
       successorState = gameState.generateSuccessor(agentIndex, action)
       eachResult = (self.value(successorState, agentIndex, depth), action)
       result.append(eachResult)
-    
     ans = max(result, key = lambda x: x[0])
     return ans[1]
     util.raiseNotDefined()
