@@ -34,8 +34,6 @@ class RandomGhost( GhostAgent ):
         dist = util.Counter()
         for a in state.getLegalActions( self.index ): dist[a] = 1.0
         dist.normalize()
-        print "dist:"
-        print dist
         return dist
 
 class DirectionalGhost( GhostAgent ):

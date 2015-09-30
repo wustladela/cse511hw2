@@ -45,7 +45,8 @@ class ReflexAgent(Agent):
     "Add more of your code here if you want to"
 
     return legalMoves[chosenIndex]
-
+  def manhattanDist(self, p1, p2):
+    return abs(p1[0]-p2[0])+abs(p1[1]-p2[1])
   def evaluationFunction(self, currentGameState, action):
     """
     Design a better evaluation function here.
@@ -71,46 +72,48 @@ class ReflexAgent(Agent):
     "*** YOUR CODE HERE ***"
     "TODO: make sure it's not too close to the ghost"
     "make sure it keeps eating all the food... and do not stop if the food is close"
-    currentPos = currentGameState.getPacmanPosition()
     from searchAgents import mazeDistance
-    # from searchAgents import foodHeuristic
+
+    
+    "not too close to the ghosts"
+    "get ALL the food"
+    "get to the closest food and EAT it"
+    currentPos = currentGameState.getPacmanPosition
+    allFood = currentGameState.getFood().asList()
+    foodDistance = []
     ans = successorGameState.getScore()
-    # see how far the ghosts are. use manhattan distance
-    ghostPositions = successorGameState.getGhostPositions()
-    for each in ghostPositions:
-      distance = 0
-      distance = distance + manhattanDist(newPos, each)
-      if distance < 4:
-        ans = ans - 100
-        
-    allFood = currentGameState.getCapsules()
-    # foodDistance = util.PriorityQueue()
-    # for dot in allFood:
-    #     distance = manhattanDist(newPos, dot)
-    #     foodDistance.push(dot, distance)
-    avgDist = 0
-    if len(allFood)>0:
-      for each in allFood:
-        avgDist = (avgDist + mazeDistance(newPos, each, successorGameState))/len(allFood)
-        # closestFood = min(allFood)
-        # farthestFood = max(allFood)
-        # print closestFood
-        # average = ()
-        # average = ((closestFood[0]*4+farthestFood[0])/2,(closestFood[1]*4+farthestFood[1])/2)
-        # print "closestFood:"
-        # print closestFood
-        # print "new Pos:"
-        # print newPos
-        # ans = ans - manhattanDist(newPos, average)
+    for dot in allFood:
+        # distance = mazeDistance(newPos, dot, currentGameState)
+        distance = self.manhattanDist(newPos, dot)
+        item = (dot, distance)
+        foodDistance.append(item)
 
-
-
-        #######give it enough incentive to eat the food - if it actually eats it then there is less food
-        #######make sure it eats all the food first then handle the ghost - add a negative infinity to it or somrthing
-    ans = ans - avgDist
-    # print "ans:"
-    # print ans
+    #check ALL ghosts
+    numAgents = successorGameState.getNumAgents()
+    allGhostPositions = []
+    if numAgents==2:
+      #ghostDistance = mazeDistance(newPos, successorGameState.getGhostPosition(1), successorGameState)
+      ghostDistance = self.manhattanDist(newPos, successorGameState.getGhostPosition(1))
+      if ghostDistance<3:
+        ans = ans - (3-ghostDistance)*100000
+    #for more than one ghost  
+    if numAgents>2:
+      for x in range(1, numAgents):
+        ghostNewPos = successorGameState.getGhostPosition(x)
+        allGhostPositions.append(ghostNewPos)
+      for eachGhost in allGhostPositions:
+        ghostDistance = self.manhattanDist(newPos, eachGhost)
+        if ghostDistance<3:
+          ans = ans - (3-ghostDistance)*100000
+    
+    if len(foodDistance)>0:
+      #ans = max(result, key = lambda x: x[0])
+      closestFood = min(foodDistance, key = lambda x: x[1])
+      ans = ans - closestFood[1]
+    if newPos in allFood:
+      ans = ans + 10000
     return ans
+
 def scoreEvaluationFunction(currentGameState):
   """
     This default evaluation function just returns the score of the state.
@@ -147,10 +150,10 @@ class MinimaxAgent(MultiAgentSearchAgent):
   """
   def manhattanDist(point1, point2):
     "The Manhattan distance for two positions"
-    x1 = point1[0]
-    x2 = point2[0]
-    y1 = point1[1]
-    y2 = point2[0]
+    x1 = float(point1[0])
+    x2 = float(point2[0])
+    y1 = float(point1[1])
+    y2 = float(point2[0])
     return abs(x1 - x2) + abs(y1 - y2)
   def nextAgent(self, gameState, agentIndex, depth):
     numAgents = gameState.getNumAgents()
