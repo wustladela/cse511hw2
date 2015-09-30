@@ -78,7 +78,6 @@ class ReflexAgent(Agent):
     "not too close to the ghosts"
     "get ALL the food"
     "get to the closest food and EAT it"
-    currentPos = currentGameState.getPacmanPosition
     allFood = currentGameState.getFood().asList()
     foodDistance = []
     ans = successorGameState.getScore()
@@ -404,6 +403,8 @@ class ExpectimaxAgent(MultiAgentSearchAgent):
     return ans[1]
     util.raiseNotDefined()
 
+def manhattanDist(p1, p2):
+    return abs(p1[0]-p2[0])+abs(p1[1]-p2[1])
 def betterEvaluationFunction(currentGameState):
   """
     Your extreme ghost-hunting, pellet-nabbing, food-gobbling, unstoppable
@@ -412,8 +413,46 @@ def betterEvaluationFunction(currentGameState):
     DESCRIPTION: <write something here so we know what you did>
   """
   "*** YOUR CODE HERE ***"
-  util.raiseNotDefined()
+  "need to get the successor game state...?"
+  from searchAgents import mazeDistance
+  ans = currentGameState.getScore()
+  currentPos = currentGameState.getPacmanPosition()
+  allFood = currentGameState.getFood().asList()
+  foodDistance = []
+  for dot in allFood:
+    distance = manhattanDist(currentPos, dot)
+    item = (dot, distance)
+    foodDistance.append(item)
 
+  numAgents = currentGameState.getNumAgents()
+  allGhostPositions = []
+  if numAgents==2:
+    #ghostDistance = mazeDistance(newPos, successorGameState.getGhostPosition(1), successorGameState)
+    ghostDistance = manhattanDist(newPos, currentGameState.getGhostPosition(1))
+    if ghostDistance<3:
+      ans = ans - (3-ghostDistance)*100000
+  #for more than one ghost  
+  if numAgents>2:
+    for x in range(1, numAgents):
+      ghostPos = currentGameState.getGhostPosition(x)
+      allGhostPositions.append(ghostPos)
+    for eachGhost in allGhostPositions:
+      ghostDistance = manhattanDist(currentPos, eachGhost)
+      if ghostDistance<3:
+        ans = ans - (3-ghostDistance)*100000
+  
+  if len(foodDistance)>0:
+    #ans = max(result, key = lambda x: x[0])
+    closestFood = min(foodDistance, key = lambda x: x[1])
+    ans = ans - closestFood[1]
+  if currentPos in allFood:
+    ans = ans + 10000
+  return ans
+
+
+
+
+  util.raiseNotDefined()
 # Abbreviation
 better = betterEvaluationFunction
 
